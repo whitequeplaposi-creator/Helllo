@@ -1,0 +1,15 @@
+{
+  "name": "eprolo-scraper",
+  "version": "1.0.0",
+  "description": "Scraper för att importera produkter från Eprolo",
+  "main": "scraper.js",
+  "scripts": {
+    "start": "node scraper.js",
+    "dev": "node --inspect scraper.js"
+  },
+  "dependencies": {
+    "puppeteer": "^21.0.0",
+    "@libsql/client": "^0.4.0",
+    "fs": "^0.0.1-security"
+  }
+}
